@@ -21,6 +21,7 @@ const CoinDetails = ({ coin }) => {
             <div className='flex gap-2 items-center'>
               <BiLike className='text-green-500 text-2xl' />
               <p>{coin.sentiment_votes_up_percentage}%</p>
+              <p>Hello World</p>
             </div>
             <div className='flex gap-2 items-center'>
               <BiDislike className=' text-red-500 text-2xl' />
